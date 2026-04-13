@@ -3,9 +3,84 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Minimal Audio: premium noise-cancelling wireless headphones with 30 hour battery life.">
     <title>Minimal Headphones - Landing Page</title>
 </head>
 <body>
     <!-- We will build sections here -->
-</body>
-</html>
+<body>
+    <!-- 1. NAVIGATION (semantic <header> + <nav>) -->
+    <header id="header">
+        <nav id="nav-bar">
+            <div class="nav-logo">Minimal Audio</div>
+            <ul class="nav-links">
+                <li><a href="#hero" class="nav-link">Home</a></li>
+                <li><a href="#features" class="nav-link">Features</a></li>
+                <li><a href="#cta" class="nav-link">Pre-Order</a></li>
+            </ul>
+            <!-- Mobile menu button (will be interactive) -->
+            <button id="mobile-menu-btn" class="menu-btn">☰</button>
+        </nav>
+    </header>
+
+    <!-- 2. HERO SECTION (semantic <section>) -->
+    <section id="hero">
+        <div class="hero-content">
+            <h1>Wireless Headphones. Minimal Design. Maximum Sound.</h1>
+            <p>30hr battery. Zero noise. Pure audio.</p>
+            <button id="hero-cta" class="cta-button">Pre-Order Now</button>
+        </div>
+        <div class="hero-image">
+            <!-- Free product image (you can replace this) -->
+            <img src="https://images.unsplash.com/photo-1505740420928-5e560c06d30e?ixlib=rb-4.0.3&auto=format&fit=crop&w=1470&q=80" alt="Minimal Wireless Headphones">
+        </div>
+    </section>
+
+    <!-- 3. FEATURES SECTION (semantic <section>) -->
+    <section id="features">
+        <h2>Why Minimal Audio?</h2>
+        <div class="features-grid">
+            <div class="feature-card">
+                <h3>🔋 30 Hour Battery</h3>
+                <p>All-day listening with fast charging.</p>
+            </div>
+            <div class="feature-card">
+                <h3>🎧 Noise Cancelling</h3>
+                <p>Block the world, focus on your sound.</p>
+            </div>
+            <div class="feature-card">
+                <h3>💧 Water Resistant</h3>
+                <p>Sweat-proof for workouts or travel.</p>
+            </div>
+            <div class="feature-card">
+                <h3>📱 One-Tap Pairing</h3>
+                <p>Connect to any device in 2 seconds.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Interactive Countdown (2nd interactive element) -->
+    <section id="cta">
+        <h2>Launch Countdown</h2>
+        <div id="countdown-timer">
+            <div class="timer-box"><span id="days">00</span><p>Days</p></div>
+            <div class="timer-box"><span id="hours">00</span><p>Hours</p></div>
+            <div class="timer-box"><span id="minutes">00</span><p>Minutes</p></div>
+            <div class="timer-box"><span id="seconds">00</span><p>Seconds</p></div>
+        </div>
+    </section>
+
+    <!-- 4. FOOTER (semantic <footer>) -->
+    <footer id="footer">
+        <div class="footer-social">
+            <a href="#" class="social-icon">Instagram</a>
+            <a href="#" class="social-icon">Twitter</a>
+            <a href="#" class="social-icon">YouTube</a>
+        </div>
+        <p class="footer-copyright">&copy; 2024 Minimal Audio. All Rights Reserved.</p>
+    </footer>
+
+    <!-- Link CSS/JS (we will make these next) -->
+    <link rel="stylesheet" href="styles.css">
+    <script src="script.js"></script>
+    </body>
