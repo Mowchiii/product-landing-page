@@ -167,7 +167,19 @@ footer {
 
 /* --- RESPONSIVE DESIGN (Media Queries - REQUIRED) --- */
 @media (max-width: 768px) {
-    /* Mobile Nav */
+
+    /* Fix 1: Smaller countdown font on mobile */
+    .timer-box span { 
+        font-size: 1.5rem; 
+    }
+
+    /* Fix 2: Reduce hero padding on mobile */
+    #hero { 
+        padding: 2rem 5%; 
+    }
+
+
+    /* --- Mobile Navigation (fixed, no broken code) --- */
     .nav-links {
         position: absolute;
         top: 100%;
@@ -183,10 +195,11 @@ footer {
         display: flex;
     }
     .menu-btn {
-        display: block; /* show mobile button */
+        display: block; /* show mobile menu button */
     }
 
-    /* Hero (mobile) */
+
+    /* --- Mobile Hero Section --- */
     #hero {
         flex-direction: column;
         text-align: center;
@@ -195,8 +208,9 @@ footer {
         font-size: 2rem;
     }
 
-    /* Countdown (mobile) */
+
+    /* --- Mobile Countdown --- */
     #countdown-timer {
         gap: 1rem;
     }
-}
+}/* --- END OF STYLES --- */
