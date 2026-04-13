@@ -171,6 +171,7 @@ footer {
 }
 /* --- RESPONSIVE DESIGN (Media Queries - REQUIRED) --- */
 @media (max-width: 768px) {
+    #hero { padding: 2rem 5%; }
 
     /* Fix 1: Smaller countdown font on mobile */
     .timer-box span { 
