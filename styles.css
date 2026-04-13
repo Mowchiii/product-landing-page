@@ -165,6 +165,10 @@ footer {
     text-decoration: none;
 }
 
+.social-icon:hover {
+    color: #aaaaaa;
+    transition: 0.2s;
+}
 /* --- RESPONSIVE DESIGN (Media Queries - REQUIRED) --- */
 @media (max-width: 768px) {
 
